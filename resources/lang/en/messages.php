@@ -2278,4 +2278,5 @@
   'Ok  let me check' => 'Ok  let me check',
   'search_menu' => 'Search menu',
   ' Ecommerce' => ' Ecommerce',
+  'We are sorry  server is not responding' => 'We are sorry  server is not responding',
 );

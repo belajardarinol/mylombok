@@ -59,6 +59,10 @@ class WebController extends Controller
         return redirect()->route('home');
     }
 
+    public function api()
+    {
+        print(json_encode(['status' => 'success', 'message' => 'ok']));
+    }
     public function home()
     {
         $brand_setting = BusinessSetting::where('type', 'product_brand')->first()->value;
